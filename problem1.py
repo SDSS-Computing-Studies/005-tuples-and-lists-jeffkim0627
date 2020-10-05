@@ -19,3 +19,11 @@ Enter the replacement:Dan
 ['Alain', 'Brian', 'Chris', 'Justin', 'Angela', 'Dan']
 
 """
+people = ['Alain', 'Brian', 'Chris', 'Justin', 'Angela', 'Dan']
+WrdRmv = input("Choose a person from the list to replace ")
+WrdAdd = input("Enter the replacement")
+
+ind = people.index(WrdRmv)
+people.remove(WrdRmv)
+people.insert(ind, WrdAdd)
+print(people)

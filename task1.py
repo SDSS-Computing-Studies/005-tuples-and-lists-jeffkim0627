@@ -22,6 +22,7 @@ Enter the index for an animal:2
 The animal at that index is Dog
 """
 
-
-
-animals =
+number = int(input("Enter a number"))
+animals = ["Cat", "Fish", "Dog", "Bear", "Turtle"]
+animals.sort()
+print(animals[number])
