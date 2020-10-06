@@ -20,8 +20,8 @@ Enter the replacement:Dan
 
 """
 people = ['Alain', 'Brian', 'Chris', 'Justin', 'Angela', 'Dan']
-WrdRmv = input("Choose a person from the list to replace ")
-WrdAdd = input("Enter the replacement")
+WrdRmv = input("Choose a person from the list to replace ").strip()
+WrdAdd = input("Enter the replacement").strip()
 
 ind = people.index(WrdRmv)
 people.remove(WrdRmv)
