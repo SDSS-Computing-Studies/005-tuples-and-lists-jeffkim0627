@@ -24,7 +24,7 @@ Enter an integer:-1
 The largest number you entered is 92
 """
 intlist = []
-number = int(input("Enter an integer")).strip()
+number = int(input("Enter an integer"))
 while number != -1:
     intlist.insert(1,number)
     number = int(input("Enter an integer"))  
