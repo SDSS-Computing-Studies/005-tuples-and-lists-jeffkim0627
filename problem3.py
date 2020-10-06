@@ -24,10 +24,10 @@ Enter an integer:-1
 The largest number you entered is 92
 """
 intlist = []
-number = int(input("Enter an integer"))
+number = int(input("Enter an integer")).strip()
 while number != -1:
     intlist.insert(1,number)
-    number = int(input("Enter an integer"))
-intlist.sort    
-if number == -1:
-    print("The largest number you entered is " + str(intlist[-1]))
+    number = int(input("Enter an integer"))  
+    if number == -1:
+        intlist.sort() 
+        print("The largest number you entered is " + str(intlist[-1]))

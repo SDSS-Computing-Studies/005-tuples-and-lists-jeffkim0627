@@ -19,7 +19,7 @@ Enter the replacement:Dan
 ['Alain', 'Brian', 'Chris', 'Justin', 'Angela', 'Dan']
 
 """
-people = ['Alain', 'Brian', 'Chris', 'Justin', 'Angela', 'Dan']
+people = ['Alain', 'Brian', 'Chris', 'Justin', 'Angela', 'Rick']
 WrdRmv = input("Choose a person from the list to replace ").strip()
 WrdAdd = input("Enter the replacement").strip()
 
