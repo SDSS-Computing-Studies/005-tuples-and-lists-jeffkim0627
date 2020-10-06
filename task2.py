@@ -23,11 +23,11 @@ Enter a word: virus
 
 ['apple', 'worm', 'dollar', 'shingle', 'virus']
 """
-str1 = input("Enter a word")
-str2 = input("Enter a word")
-str3 = input("Enter a word")
-str4 = input("Enter a word")
-str5 = input("Enter a word")
+str1 = input("Enter a word").strip()
+str2 = input("Enter a word").strip()
+str3 = input("Enter a word").strip()
+str4 = input("Enter a word").strip()
+str5 = input("Enter a word").strip()
 
 words = [str1,str2,str3,str4,str5]
 
