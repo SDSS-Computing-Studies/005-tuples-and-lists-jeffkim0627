@@ -35,6 +35,6 @@ if (Wrd in fruit):
         
 
 else:
-    fruit.insert(1,Wrd)
+    fruit.insert(9,Wrd)
 
 print(fruit)
